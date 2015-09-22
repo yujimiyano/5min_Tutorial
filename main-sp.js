@@ -3,7 +3,7 @@ window.onload = function(){
     var currentMode = 'portrait';
     var output = document.getElementById('output');
 
-    var milkcocoa = new MilkCocoa("app_id.mlkcca.com");
+    var milkcocoa = new MilkCocoa("postiev3rjbn.mlkcca.com");
     var ds = milkcocoa.dataStore('gravity');
 
     window.addEventListener('devicemotion', function(e){
